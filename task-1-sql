@@ -1,0 +1,1 @@
+SELECT surname FROM employee WHERE id!=(SELECT id FROM employee ORDER BY experience DESC LIMIT 1) ORDER BY experience DESC LIMIT 1;
