@@ -1,2 +1,2 @@
 # rosatom-java-caselab-test
-Тестовые задания с Java Case Lab
+Тестовые задания для Java Case Lab
