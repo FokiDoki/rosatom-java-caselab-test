@@ -30,7 +30,10 @@ public class Threading {
                 System.out.println("Работает основная программа");
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
+            } finally {
+                executorService.shutdown();
             }
         }
+
     }
 }
